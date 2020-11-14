@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size" >14sp</dimen>
+    <dimen name="panel_margin" >18dp</dimen>
+    <dimen name="LABEL_TEXT_SIZE" >14sp</dimen>
+    <dimen name="DEFAULT_WIDTH">22dp</dimen>
+    <dimen name="DEFAULT_HEIGHT">22dp</dimen>
+    <dimen name="DEFAULT_WIDTH_ARC">2dp</dimen>
+    <dimen name="spaceBetweenNodeInit">120dp</dimen>
+    <dimen name="MargeNodeInit">50dp</dimen>
+</resources>

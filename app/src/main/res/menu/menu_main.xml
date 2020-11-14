@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".controller.MainActivity">
+    <item android:id="@+id/reinitialiser"
+        android:title="@string/reinitialiser"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/node_addition_mode"
+        android:title="@string/mode_ajout_noeud"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+    <item android:id="@+id/edge_addition_mode"
+        android:title="@string/mode_ajout_arc_bloucle"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/modification"
+        android:title="@string/mode_modification"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/sauver_ou_importer"
+        android:title="@string/sauver_importer"
+        android:orderInCategory="400"
+        app:showAsAction="never">
+        <menu android:id="@+id/sousmenu">
+            <item android:id="@+id/sauver"
+                android:title="@string/sauvegarder"
+                android:orderInCategory="400"
+                app:showAsAction="never"/>
+            <item android:id="@+id/importer"
+                android:title="@string/importer"
+                android:orderInCategory="400"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item android:id="@+id/send"
+        android:title="@string/envoyer"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+
+</menu>

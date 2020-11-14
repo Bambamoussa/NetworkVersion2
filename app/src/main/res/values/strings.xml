@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetworkMK</string>
+    <string name="app_name_separator"> : </string>
+    <string name="reinitialiser">Initialize</string>
+    <string name="mode_ajout_noeud">Node add mode</string>
+    <string name="mode_ajout_arc_bloucle">Arc add and loop mode </string>
+    <string name="mode_modification">Editing mode</string>
+    <string name="modification_noeud">Noeud Editing mode</string>M
+    <string name="modification_arc">Arc Editing mode</string>
+    <string name="sauver_importer">Save or Import the Graph</string>
+    <string name="sauvegarder">Save the Graph</string>
+    <string name="importer">Import the Graph</string>
+    <string name="envoyer">Send by mail</string>
+    <string name="langue">CHANGE LANGUAGE</string>
+    <string name="choose_language">Choose language</string>
+
+    <!-- Pour le Dialog de Node -->
+    <string name="tapez">type</string>
+    <string name="title_dialog_node_setting">NODE MODIFICATION</string>
+    <string name="etiquette">Label</string>
+    <string name="color">Color</string>
+    <string name="size">Size</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- pour le Dialog de Arc-->
+    <string name ="arc_label">ADD LABEL NAME</string>
+    <string name ="add_arc_demand">Type the name of ARC: </string>
+    <string name ="title_dialog_arc_setting">ARC MODIFICATION</string>
+    <string name ="arc_etiquette">Label </string>
+    <string name ="arc_color">Color</string>
+    <string name = "arc_epaisseur">Thickness</string>
+    <string name ="arc_size">Size</string>
+    <string name ="boucle_width">Loop width</string>
+    <string name ="arc_save">Save</string>
+    <string name ="delete">Delete</string>
+
+    <!-- Messgae Toast-->
+    <string name ="wrong_entry">Wrong Entry</string>
+    <string name ="failed">Failed</string>
+    <string name ="done">Done !</string>
+    <string name ="none">None</string>
+
+    <!-- For the spinner in MODIFICATION DE NOEUD-->
+
+    <string name = "choice">Choose the color: </string>
+
+    <array name="colors_values">
+        <item name ="Red">@color/Rouge</item>
+        <item name ="Green">@color/Vert</item>
+        <item name ="Blue">@color/Bleu</item>
+        <item name ="Cyan">@color/Cyan</item>
+        <item name ="Orange">@color/Orange</item>
+        <item name ="Magenta">@color/Magenta</item>
+        <item name ="Black">@color/Noir</item>
+    </array>
+
+    <string-array name="colorsName">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Magenta</item>
+        <item>Black</item>
+    </string-array>
+</resources>

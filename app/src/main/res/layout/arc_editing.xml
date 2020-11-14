@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="1"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="309dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="@string/modification_arc"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:src="@drawable/ic_close_black_24dp"
+        android:background="@android:color/transparent"
+        android:tint="#BDBDBD"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/title"
+        />
+    <TextView
+        android:id="@+id/tv_etiquette"
+        android:layout_width="111dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="@dimen/text_size"
+        android:gravity="center"
+        android:text="@string/arc_etiquette"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+    <EditText
+        android:id="@+id/te_etiquette"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/tapez"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_etiquette"/>
+    <TextView
+        android:id="@+id/tv_color"
+        android:layout_width="111dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="@dimen/text_size"
+        android:gravity="center"
+        android:text="@string/color"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_etiquette" />
+    <Spinner
+        android:id="@+id/te_color"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:entries="@array/colorsName"
+        android:prompt="@string/choice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_color"
+        />
+    <TextView
+        android:id="@+id/tv_epaisseur"
+        android:layout_width="111dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="@dimen/text_size"
+        android:gravity="center"
+        android:text="@string/arc_epaisseur"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_color" />
+    <EditText
+        android:id="@+id/te_epaisseur"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/tapez"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_epaisseur" />
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="111dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="@dimen/text_size"
+        android:gravity="center"
+        android:text="@string/arc_size"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_epaisseur" />
+    <EditText
+        android:id="@+id/te_size"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/tapez"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_size" />
+    <TextView
+        android:id="@+id/tv_boucle_size"
+        android:layout_width="111dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="@dimen/text_size"
+        android:gravity="center"
+        android:text="@string/boucle_width"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_size"/>
+    <EditText
+        android:id="@+id/te_boucle_size"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/tapez"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_boucle_size" />
+
+    <Button
+        android:id="@+id/btn_valider"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/btn_delete_arc"
+        app:layout_constraintLeft_toLeftOf="@id/tv_boucle_size"
+        app:layout_constraintTop_toBottomOf="@+id/tv_boucle_size"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <Button
+        android:id="@+id/btn_delete_arc"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/text_size"
+        android:gravity="center"
+        android:text="@string/delete"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/te_boucle_size"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_valider"
+        app:layout_constraintWidth_percent="0.5"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

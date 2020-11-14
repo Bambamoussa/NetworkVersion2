@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetworkMK</string>
+    <string name="app_name_separator"> : </string>
+    <string name="reinitialiser">reinitialiser</string>
+    <string name="mode_ajout_noeud">Mode ajout de noeud</string>
+    <string name="mode_ajout_arc_bloucle">Mode ajout d\'arc et de doucle</string>
+    <string name="mode_modification">Modification</string>
+    <string name="modification_noeud">Modification de noeud</string>
+    <string name="modification_arc">Modification d\'arc</string>
+    <string name="sauver_importer">Enregistrer / Import le Graph</string>
+    <string name="sauvegarder">Enregistrer le Graph</string>
+    <string name="importer">Importer le Graph</string>
+    <string name="envoyer">Envoyer par mail</string>
+    <string name="langue">CHANGER LA LANGUE</string>
+    <string name="choose_language">Choisir la langue</string>
+
+    <!-- Pour le Dialog de Node -->
+    <string name="tapez">Tapez</string>
+    <string name="title_dialog_node_setting">MODIFICAION DE NOEUD</string>
+    <string name="etiquette">Etiquete</string>
+    <string name="color">Couleur</string>
+    <string name="size">Taille</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Sauvegarder</string>
+
+    <!-- pour le Dialog de Arc-->
+    <string name ="arc_label">AJOUTER NOM DE L\'ETIQUETTE</string>
+    <string name ="add_arc_demand">Tapez le nom de l\'ARC: </string>
+    <string name ="title_dialog_arc_setting">MODIFICATION DE L\'ARC</string>
+    <string name ="arc_etiquette">Etiquette</string>
+    <string name ="arc_color">Couleur</string>
+    <string name = "arc_epaisseur">Epaisseur</string>
+    <string name ="arc_size">Taille</string>
+    <string name ="boucle_width">Largeur Boucle</string>
+    <string name ="arc_save">Sauvegarder</string>
+    <string name ="delete">Supprimer</string>
+
+    <!-- Messgae Toast-->
+    <string name ="wrong_entry">Mauvaise saisie</string>
+    <string name ="failed">Echec</string>
+    <string name ="done">Succès !</string>
+    <string name ="none">Vide</string>
+
+    <string name = "choice">Choose the color: </string>
+
+    <array name="colors_values">
+        <item name ="Rouge">@color/Rouge</item>
+        <item name ="Vert">@color/Vert</item>
+        <item name ="Bleu">@color/Bleu</item>
+        <item name ="Orange">@color/Orange</item>
+        <item name ="Cyan">@color/Cyan</item>
+        <item name ="Magenta">@color/Magenta</item>
+        <item name ="Noir">@color/Noir</item>
+    </array>
+
+    <string-array name="colorsName">
+        <item>Rouge</item>
+        <item>Vert</item>
+        <item>Bleu</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Magenta</item>
+        <item>Noir</item>
+    </string-array>
+</resources>
